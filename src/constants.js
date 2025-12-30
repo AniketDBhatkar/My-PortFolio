@@ -50,6 +50,7 @@ import jobstackapp from "./assets/work_logo/jobstackapp.png";
 import methauthapp from "./assets/work_logo/methauthapp.png";
 import notekeeperapp from "./assets/work_logo/notekeeperapp.png";
 import todolist from "./assets/work_logo/todolist.png"
+import genui from "./assets/work_logo/genui.png"
 
 export const SkillsInfo = [
   {
@@ -210,6 +211,17 @@ export const SkillsInfo = [
         "JOBSTACK is a streamlined Job Application Management system designed to help users organize, track, and manage their job applications efficiently. It allows users to add job details, update application status, set reminders, and monitor progress through a clean and intuitive interface. By centralizing all job-related information in one place, JOBSTACK helps users stay organized, improve productivity, and manage their career search more effectively.",
       image: jobstackapp,
       tags: ["JavaScript", "React.js", "HTML", "CSS","MongoDB","Node.js"],
+      
+    },
+    {
+      id: 6,
+      title: " GENUI STUDIO (Generate UI Components)",
+      description:
+        "GenUI is an AI-powered user interface generator that creates clean, responsive UI components and ready-to-use frontend code from simple prompts or inputs, helping developers build interfaces faster with less manual effort.",
+      image: genui,
+      tags: ["Gemini API", "React.js", "HTML", "CSS"],
+      github: "https://github.com/AniketDBhatkar/GenUI_Studio_Application",
+      webapp: "https://gen-ui-studio-application.vercel.app/",
       
     },
   
